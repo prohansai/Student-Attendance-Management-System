@@ -2,6 +2,7 @@
 This project is a simple console-based application written in C that helps manage student attendance in a class. It allows you to track the attendance of students, display individual attendance records, identify students with low attendance, and manage the student roster.
 
 Features:
+
 *Add Students: Add new students to the class by providing their name and roll number. The newly added student will have their attendance records initialized.
 
 *Remove Students: Remove a student from the class roster by providing their roll number. This is useful for managing the list of students effectively.
@@ -14,11 +15,20 @@ Features:
 
 
 Menu Options:
+
 *Take Attendance: Record the attendance of students for a specific number of days.
+
 *Display Attendance: View the attendance record of a specific student.
+
 *Display Low Attendance: See a list of students with attendance below 75%.
+
 *Add a Student: Add a new student to the class.
+
 *Remove a Student: Remove a student from the class.
+
 *Exit: Exit the program.
 
-Memory Management: The program dynamically allocates and reallocates memory to handle the student roster efficiently.
+Memory Management: 
+
+The program dynamically allocates and reallocates memory to handle the student roster efficiently.
+
